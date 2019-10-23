@@ -1,0 +1,18 @@
+@import "mixinsS.scss";
+@import "colorsS.scss";
+.container {
+    background-color: $greyColor;
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid grey;
+    padding: 1.5%;
+    @include p-m();
+    .button1 {
+        padding: 1.3%;
+        background-color: black;
+        color: white;
+    }
+    .large-name {
+        @include text-d ();
+    }
+}

@@ -1,0 +1,9 @@
+@mixin cnopca {
+    .b {
+        display: inline-block;
+        width: 15%;
+        color: white;
+        background-color: $bColor;
+        text-align: center;
+    }
+}
